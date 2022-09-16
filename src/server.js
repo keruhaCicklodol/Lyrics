@@ -19,8 +19,9 @@ app.get("/", async (req, res) => {
     res.end(html);
 });
 
-app.get('/lyrics', async(req,res) => {
-    const response = await axios.get('http://api.chartlyrics.com/apiv1.asmx/SearchLyricDirect?artist=string&song=string');
-    res.json({lyric: response.data});
-})
+// app.get('/lyrics', async(req,res) => {
+//     const {artistName, songName} = req.params;
+//     const response = await axios.get(`https://lyrics-finder1.p.rapidapi.com/${artistName}/${songName}`);
+//     res.json({songLyric: response});
+// })
 app.listen(PORT, () => console.log(`App has started on port ${PORT}`));
