@@ -1,7 +1,7 @@
 import express from "express";
 import morgan from "morgan";
 import React from "react";
-import axios from 'axios';
+// import axios from 'axios';
 import { renderToString } from "react-dom/server";
 import Layout from "./components/Layout";
 

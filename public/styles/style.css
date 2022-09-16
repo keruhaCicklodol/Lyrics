@@ -1,0 +1,10 @@
+/* * {
+    background-image: url(https://m.media-amazon.com/images/I/81KtzN3ANAL._SS500_.jpg);
+} */
+
+#lyrics {
+    height: 25px;
+    line-height: 25px;
+    width: 60%;
+    text-align: center;
+}
